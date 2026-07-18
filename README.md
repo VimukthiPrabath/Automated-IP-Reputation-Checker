@@ -19,3 +19,20 @@ An automated security operations (SOC) tool designed to check the reputation of 
 1. Clone this repository:
    ```bash
    git clone [https://github.com/VimukthiPrabath/Automated-IP-Reputation-Checker.git](https://github.com/VimukthiPrabath/Automated-IP-Reputation-Checker.git)
+```
+2. Install the required dependencies:
+   ```bash
+   pip install requests python-dotenv
+   ```
+3. Create a `.env` file in the root directory and add your API key:
+   ```text
+   ABUSEIPDB_API_KEY=your_api_key_here
+   ```
+4. Add the IP addresses you want to analyze into `ips.txt` (one per line).
+5. Run the script:
+   ```bash
+   python ip_checker.py
+   ```
+
+## 📊 Output
+The script generates a `malicious_ips.csv` file containing clean, structured threat intelligence data ready for SOC analysts.
