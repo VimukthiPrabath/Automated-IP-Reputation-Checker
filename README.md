@@ -19,7 +19,8 @@ An automated security operations (SOC) tool designed to check the reputation of 
 1. Clone this repository:
    ```bash
    git clone [https://github.com/VimukthiPrabath/Automated-IP-Reputation-Checker.git](https://github.com/VimukthiPrabath/Automated-IP-Reputation-Checker.git)
-```
+   ```
+   
 2. Install the required dependencies:
    ```bash
    pip install requests python-dotenv
